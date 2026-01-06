@@ -1,3 +1,572 @@
+
+
+
+  
+
+
+Professional Home Services You Can Rely On  
+
+
+<!-- ===== HOME HERO (FULL-WIDTH) ===== -->
+<section class="ehs-hero">
+  <div class="ehs-hero-bg" aria-hidden="true"></div>
+
+  <div class="ehs-hero-overlay" aria-hidden="true"></div>
+
+  <div class="ehs-hero-inner">
+    <div class="ehs-hero-content">
+      <h1>Professional Home Services You Can Rely On</h1>
+      <p>Expert home services with years of experience.</p>
+
+      <div class="ehs-hero-actions">
+        <a class="ehs-btn ehs-btn-primary" href="tel:+15196972361">Call Us</a>
+        <a class="ehs-btn ehs-btn-outline" href="/contact/">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .ehs-hero{
+    position: relative;
+    min-height: 78vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+
+  /* Background image (professional house) */
+  .ehs-hero-bg{
+    position: absolute;
+    inset: 0;
+    background-image:
+      url("https://plus.unsplash.com/premium_photo-1689609950071-af404daa58a0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.02);
+  }
+
+  /* Dark overlay for readability */
+  .ehs-hero-overlay{
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.15) 100%);
+  }
+
+  /* Content wrapper */
+  .ehs-hero-inner{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 16px;
+  }
+
+  .ehs-hero-content{
+    max-width: 680px;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .ehs-hero-content h1{
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.2px;
+  }
+
+  .ehs-hero-content p{
+    font-family: "Inter", system-ui, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 18px 0;
+    opacity: 0.92;
+    max-width: 56ch;
+  }
+
+  .ehs-hero-actions{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .ehs-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-family: "Inter", system-ui, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: transform .15s ease, opacity .15s ease;
+    white-space: nowrap;
+  }
+
+  .ehs-btn:hover{
+    transform: translateY(-1px);
+    opacity: 0.95;
+  }
+
+  .ehs-btn-primary{
+    background: #c4784a;
+    color: #1f140f;
+    border-color: rgba(255,255,255,0.18);
+  }
+
+  .ehs-btn-outline{
+    background: rgba(255,255,255,0.10);
+    color: #fff;
+    border-color: rgba(255,255,255,0.22);
+    backdrop-filter: blur(6px);
+  }
+
+  /* Responsive */
+  @media (min-width: 768px){
+    .ehs-hero{ min-height: 82vh; }
+    .ehs-hero-inner{ padding: 0 24px; }
+    .ehs-hero-content h1{ font-size: 52px; }
+    .ehs-hero-content p{ font-size: 17px; }
+  }
+
+  @media (max-width: 420px){
+    .ehs-hero-content h1{ font-size: 30px; }
+    .ehs-btn{ width: 100%; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+Professional Home Services You Can Rely On
+
+
+CSS CODE 
+
+
+
+/* FORCE ALL HERO TEXT TO WHITE */
+.ehs-hero-content h1,
+.ehs-hero-content p {
+  color: #ffffff;
+}
+
+/* Buttons text color */
+.ehs-btn {
+  color: #ffffff;
+}
+
+/* Primary button – keep background, make text white */
+.ehs-btn-primary {
+  background: #c4784a;
+  color: #ffffff; /* changed to white */
+}
+
+/* Outline button – already white but forced */
+.ehs-btn-outline {
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Serving Your Community
+
+
+
+<section class="ehs-community">
+  <div class="ehs-community-wrap">
+    <div class="ehs-community-card">
+      <h2>Serving Your Community</h2>
+
+      <p>
+        <strong>Elite Home Services</strong> proudly serves <strong>London, Ontario</strong> and surrounding communities,
+        providing reliable and professional home improvement services to local homeowners. Our location allows us to respond
+        efficiently and support our clients with dependable, high-quality workmanship.
+      </p>
+
+      <p>
+        Whether you’re in London or nearby areas, our team is ready to help with a wide range of services, including flooring
+        installation, wooden backyard fences, door installation, custom wall décor, wall repairs, fresh painting, and many
+        small home improvement projects. We understand local homes, conditions, and expectations, and we tailor every job to
+        deliver clean, durable, and well-finished results.
+      </p>
+
+      <div class="ehs-chips">
+        <span>Flooring Installation</span>
+        <span>Wooden Fences</span>
+        <span>Door Installation</span>
+        <span>Custom Wall Décor</span>
+        <span>Wall Repairs</span>
+        <span>Fresh Painting</span>
+        <span>Small Home Projects</span>
+      </div>
+
+      <p class="ehs-community-note">
+        At <strong>Elite Home Services</strong>, we are committed to serving our community with honesty, attention to detail,
+        and work you can trust.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .ehs-community{
+    padding: 44px 16px;
+    font-family: Arial, sans-serif;
+  }
+  .ehs-community-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ehs-community-card{
+    border: 1px solid #e7e7e7;
+    border-radius: 16px;
+    padding: 22px;
+    background: #fff;
+  }
+  .ehs-community-card h2{
+    margin: 0 0 12px 0;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .ehs-community-card p{
+    margin: 0 0 14px 0;
+    font-size: 15.5px;
+    line-height: 1.75;
+    opacity: 0.95;
+  }
+  .ehs-chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 16px 0;
+  }
+  .ehs-chips span{
+    border: 1px solid #e7e7e7;
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    line-height: 1;
+    opacity: 0.95;
+  }
+  .ehs-community-note{
+    margin-top: 8px;
+    padding-top: 14px;
+    border-top: 1px solid #f0f0f0;
+  }
+  @media (max-width: 640px){
+    .ehs-community-card h2{ font-size: 24px; }
+    .ehs-community-card{ padding: 18px; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our Professional Home Services
+
+
+<section class="ehs-services">
+  <div class="ehs-wrap">
+    <h2>Our Professional Home Services</h2>
+    <p class="ehs-sub">
+      Elite Home Services provides clean, reliable home improvement solutions with attention to detail and professional finishing.
+    </p>
+    <div class="ehs-grid">
+      <div class="ehs-card">
+        <h3>Painting, Wall Repair &amp; Wood Finishing</h3>
+        <p>
+          Interior and exterior painting with clean, smooth results. We also provide wall putty, wall repairs,
+          and surface corrections for a flawless finish.
+        </p>
+      </div>
+      <div class="ehs-card">
+        <h3>Flooring Installation &amp; Removal</h3>
+        <p>
+          Professional laminate and vinyl flooring installation with proper leveling, precise alignment, and clean finishing.
+        </p>
+      </div>
+      <div class="ehs-card">
+        <h3>Fence &amp; Gate Services</h3>
+        <p>
+          Residential fence and gate installation, repair, and removal — including backyard wooden fencing solutions.
+        </p>
+      </div>
+      <div class="ehs-card">
+        <h3>Custom Wall &amp; Room Décor</h3>
+        <p>
+          Modern TV back wall decoration with clean finishing and optional LED lighting.
+        </p>
+      </div>
+      <div class="ehs-card">
+        <h3>Laundry Room Improvement &amp; Organization</h3>
+        <p>
+          Functional and decorative laundry room upgrades, including shelving and custom solutions.
+        </p>
+      </div>
+      <div class="ehs-card">
+        <h3>Small Home Installations</h3>
+        <p>
+          TV mounting, shelf installation, and a variety of small home improvement services.
+        </p>
+      </div>
+    </div>
+    <div class="ehs-footer">
+      <div class="ehs-badges">
+        <span>On-time Work</span>
+        <span>Clean Results</span>
+        <span>Fair Pricing</span>
+        <span>Customer Satisfaction</span>
+      </div>
+      <div class="ehs-cta">
+        <a class="ehs-btn ehs-btn-white" href="/contact/">Request a Quote</a>
+        <a class="ehs-btn ehs-btn-outline" href="mailto:contact@elitehomeservices.ca">Email Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .ehs-services{
+    padding: 48px 16px;
+    background-color: #f9f9f9; /* Added a slight background to the section so the white button pops */
+  }
+  .ehs-wrap{
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  .ehs-wrap h2{
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .ehs-sub{
+    margin: 0 0 26px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+    max-width: 760px;
+  }
+  .ehs-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .ehs-card{
+    border: 1px solid #e6e6e6;
+    border-radius: 14px;
+    padding: 18px;
+    background: #fff;
+  }
+  .ehs-card h3{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .ehs-card p{
+    margin: 0;
+    font-size: 14.5px;
+    line-height: 1.65;
+    opacity: 0.95;
+  }
+  .ehs-footer{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 18px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .ehs-badges{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .ehs-badges span{
+    border: 1px solid #e6e6e6;
+    padding: 8px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    background: #fff;
+  }
+  .ehs-cta{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .ehs-btn{
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.2s ease;
+  }
+  
+  /* THE REQUESTED FIX */
+  .ehs-btn-white {
+    background: #ffffff; /* White background */
+    color: #000000;      /* Black text for readability */
+    border: 1px solid #e6e6e6; /* Border so it's visible */
+  }
+
+  .ehs-btn-outline{
+    background: transparent;
+    color: #111;
+    border: 1px solid #111;
+  }
+  
+  @media (max-width: 980px){
+    .ehs-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px){
+    .ehs-grid{ grid-template-columns: 1fr; }
+    .ehs-wrap h2{ font-size: 24px; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about Our business
+
+
+
+<section class="ehs-about">
+  <div class="ehs-about-wrap">
+
+    <div class="ehs-about-text">
+      <h2>About Our Business</h2>
+
+      <p>
+        At <strong>Elite Home Services</strong>, we provide professional and dependable home improvement services across
+        <strong>London, Ontario</strong> and surrounding areas. We focus on quality workmanship, clean results, and honest
+        service on every project.
+      </p>
+
+      <p>
+        Our services include flooring installation, wooden fence installation for backyards, door installation, and custom
+        home décor such as TV wall designs and bedroom décor made to order. We also handle wall repairs and corrections,
+        fresh interior painting, and a wide range of small home improvement and installation jobs.
+      </p>
+
+      <p>
+        We take pride in delivering well-organized, on-time work with attention to detail, ensuring your home looks better,
+        functions better, and feels refreshed. With <strong>Elite Home Services</strong>, you can count on reliable service,
+        clear communication, and results you can trust.
+      </p>
+    </div>
+
+    <div class="ehs-about-image">
+      <img src="https://media.istockphoto.com/id/941972466/photo/manual-workers-making-construction-for-drywall.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=07h_VZtzggt_MFlm9TiyHNtICzzslm42NeNz2pd783k=" alt="Elite Home Services Home Improvement">
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .ehs-about{
+    padding: 44px 16px;
+    font-family: Arial, sans-serif;
+  }
+  .ehs-about-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ehs-about-text h2{
+    margin: 0 0 14px 0;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .ehs-about-text p{
+    margin: 0 0 14px 0;
+    font-size: 15.5px;
+    line-height: 1.75;
+    opacity: 0.95;
+  }
+  .ehs-about-image{
+    margin-top: 22px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .ehs-about-image img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 640px){
+    .ehs-about-text h2{ font-size: 24px; }
+    .ehs-about-image img{ height: 220px; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
 (navigation page)
 
 <section class="ehs-nav"> 
