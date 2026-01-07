@@ -690,41 +690,47 @@ about Our business
 
     <div class="ehs-gallery-grid" id="ehsGalleryGrid"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=900&auto=format&fit=crop" alt="Photo 1"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/30/52/5d/30525dad8f1b4da0ed38c44ed999d458.jpg" alt="Photo 1"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&auto=format&fit=crop" alt="Photo 2"> 
+<img class="ehs-thumb" src="https://i.pinimg.com/736x/ca/b3/23/cab323a621c0469982f4f2c448ff737a.jpg" alt="Photo 19">
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=900&auto=format&fit=crop" alt="Photo 3"> 
+<img class="ehs-thumb" src="https://i.pinimg.com/1200x/eb/4a/68/eb4a68d6f83b033d70bc01a4bf792a98.jpg" alt="Photo 20">
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?w=900&auto=format&fit=crop" alt="Photo 4"> 
+<img class="ehs-thumb" src="https://i.pinimg.com/736x/49/2e/a6/492ea68084095a27c9a6110198ed6fef.jpg" alt="Photo 21">
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1560185008-5bf9f2849488?w=900&auto=format&fit=crop" alt="Photo 5"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/02/b9/c5/02b9c5ca5ec6c5bc2fa994185f33d536.jpg" alt="Photo 2"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=900&auto=format&fit=crop" alt="Photo 6"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/42/28/c5/4228c55f45c598e441713bf4b4202780.jpg" alt="Photo 3"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?w=900&auto=format&fit=crop" alt="Photo 7"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/6b/5a/e8/6b5ae8ddbe509e39d43e20b9abb3d044.jpg" alt="Photo 4"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?w=900&auto=format&fit=crop" alt="Photo 8"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/55/fb/7b/55fb7bf83dd92fc0e43fbaa1a6795ac3.jpg" alt="Photo 5"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=900&auto=format&fit=crop" alt="Photo 9"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/3d/3d/ef/3d3defd93e239c0447efef6095d0863d.jpg" alt="Photo 6"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=900&auto=format&fit=crop" alt="Photo 10"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/0a/27/42/0a27424c216871b6e2273e35462cf876.jpg" alt="Photo 7"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1501183638710-841dd1904471?w=900&auto=format&fit=crop" alt="Photo 11"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/71/a7/e5/71a7e5c9efab13548b5da13c20329e08.jpg" alt="Photo 8"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&auto=format&fit=crop" alt="Photo 12"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/df/e6/c0/dfe6c01f83fe30a21cb4fd207605a76a.jpg" alt="Photo 9"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=900&auto=format&fit=crop" alt="Photo 13"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/1d/95/35/1d953551c9dc8eba7806a1bc2efb3bc5.jpg" alt="Photo 10"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=900&auto=format&fit=crop" alt="Photo 14"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/ec/4f/2c/ec4f2c0506e1227df1deaa6f51872719.jpg" alt="Photo 11"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=900&auto=format&fit=crop" alt="Photo 15"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/04/d1/cd/04d1cde7775cbd265826384451a535fd.jpg" alt="Photo 12"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&auto=format&fit=crop" alt="Photo 16"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/28/3b/d9/283bd9483aef910b00b482f729420f23.jpg" alt="Photo 13"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=900&auto=format&fit=crop" alt="Photo 17"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/85/d1/7a/85d17a275962c9628107f3b35b93e850.jpg" alt="Photo 14"> 
 
-      <img class="ehs-thumb" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&auto=format&fit=crop" alt="Photo 18"> 
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/fd/17/21/fd172103fa8b8c1ba840ab5818e3ae9a.jpg" alt="Photo 15"> 
+
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/53/f7/45/53f745ec8be773bca7b1d9d0047c5bbc.jpg" alt="Photo 16"> 
+
+      <img class="ehs-thumb" src="https://i.pinimg.com/736x/83/a7/47/83a747cc100509318ac5eaf80fb1399d.jpg" alt="Photo 17"> 
+
+      <img class="ehs-thumb" src="https://i.pinimg.com/1200x/57/5d/e1/575de1eed160baf017bc6bd84ae6e1e8.jpg" alt="Photo 18"> 
 
     </div> 
 
@@ -845,7 +851,7 @@ about Our business
 
     <h2>Our Reviews</h2> 
 
-    <p class="ehs-reviews-intro">Real-style reviews from our customers focusing on clean finishing and reliable service.</p> 
+    <p class="ehs-reviews-intro">Our customers appreciate the quality of our work, our attention to detail, and our commitment to clean, professional finishing. From the first consultation to the final result, we focus on delivering reliable service, clear communication, and results that homeowners can feel confident about. Their feedback reflects the care we put into every project, no matter the size.</p> 
 
     <div class="ehs-reviews-grid" id="ehsReviewsGrid"> 
 
@@ -900,6 +906,10 @@ about Our business
       <div class="ehs-review ehs-hidden"><strong>Zoe Watson</strong><div class="ehs-stars">★★★★★</div><p>Updated laundry room. Great workmanship.</p></div> 
 
       <div class="ehs-review ehs-hidden"><strong>Tyler King</strong><div class="ehs-stars">★★★★★</div><p>Small home improvements done right. Respectful team.</p></div> 
+
+ <div class="ehs-review ehs-hidden"><strong>Nabush Alwadi</strong><div class="ehs-stars">★★★★★</div><p>Exterior paint looks durable and even. Sharp results.</p></div> 
+
+<div class="ehs-review"><strong>Mohammed Alhassan</strong><div class="ehs-stars">★★★★★</div><p>Door installation was done perfectly. Attention to detail is great.</p></div>
 
     </div> 
 
@@ -961,7 +971,7 @@ about Our business
 
 })(); 
 
-</script> 
+</script>
 
 
 
