@@ -19,7 +19,7 @@ Professional Home Services You Can Rely On
       <p>Expert home services with years of experience.</p>
 
       <div class="ehs-hero-actions">
-        <a class="ehs-btn ehs-btn-primary" href="tel:+15196972361">Call Us</a>
+        <a class="ehs-btn ehs-btn-primary" href="tel:+15198518887">Call Us</a>
         <a class="ehs-btn ehs-btn-outline" href="/contact/">Contact Us</a>
       </div>
     </div>
@@ -160,22 +160,14 @@ CSS CODE
   color: #ffffff;
 }
 
-/* Buttons text color */
-.ehs-btn {
-  color: #ffffff;
-}
-
-/* Primary button – keep background, make text white */
-.ehs-btn-primary {
-  background: #c4784a;
-  color: #ffffff; /* changed to white */
-}
-
-/* Outline button – already white but forced */
-.ehs-btn-outline {
-  color: #ffffff;
-  border-color: rgba(255,255,255,0.35);
-}
+/* === MOBILE FIX: FORCE BUTTON TEXT TO WHITE === */
+@media (max-width: 768px){
+  .ehs-btn,
+  .ehs-btn-outline,
+  .ehs-btn-primary{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important; /* iOS Safari fix */
+  }
 
 
 
@@ -186,6 +178,257 @@ CSS CODE
 
 
 
+
+
+
+
+
+
+about power Business
+
+
+
+
+
+<section class="ehs-about">
+  <div class="ehs-about-wrap">
+
+    <div class="ehs-about-text">
+      <h2>About Our Business</h2>
+
+      <p>
+        At <strong>Elite Home Services</strong>, we provide professional and dependable home improvement services across
+        <strong>London, Ontario</strong> and surrounding areas. We focus on quality workmanship, clean results, and honest
+        service on every project.
+      </p>
+
+      <p>
+        Our services include flooring installation, wooden fence installation for backyards, door installation, and custom
+        home décor such as TV wall designs and bedroom décor made to order. We also handle wall repairs and corrections,
+        fresh interior painting, and a wide range of small home improvement and installation jobs.
+      </p>
+
+      <p>
+        We take pride in delivering well-organized, on-time work with attention to detail, ensuring your home looks better,
+        functions better, and feels refreshed. With <strong>Elite Home Services</strong>, you can count on reliable service,
+        clear communication, and results you can trust.
+      </p>
+    </div>
+
+    <div class="ehs-about-image">
+      <img src="https://media.istockphoto.com/id/941972466/photo/manual-workers-making-construction-for-drywall.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=07h_VZtzggt_MFlm9TiyHNtICzzslm42NeNz2pd783k=" alt="Elite Home Services Home Improvement">
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .ehs-about{
+    padding: 44px 16px;
+    font-family: Arial, sans-serif;
+  }
+  .ehs-about-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ehs-about-text h2{
+    margin: 0 0 14px 0;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .ehs-about-text p{
+    margin: 0 0 14px 0;
+    font-size: 15.5px;
+    line-height: 1.75;
+    opacity: 0.95;
+  }
+  .ehs-about-image{
+    margin-top: 22px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .ehs-about-image img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 640px){
+    .ehs-about-text h2{ font-size: 24px; }
+    .ehs-about-image img{ height: 220px; }
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our Professional Home Services  
+
+
+
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Home Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+        }
+        .hover-lift:hover {
+            transform: translateY(-8px);
+        }
+        .hover-scale:hover img {
+            transform: scale(1.1);
+        }
+        /* Custom Brown Color */
+        .bg-elite-brown {
+            background-color: #5D4037;
+        }
+        .hover-elite-brown:hover {
+            background-color: #4a332c;
+        }
+    </style>
+
+
+
+    <section class="py-12 md:py-20">
+        <div class="container max-w-7xl mx-auto px-4">
+            <div class="text-center mb-14">
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">
+                    Our Professional Home Services
+                </h2>
+                <p class="text-lg text-black max-w-3xl mx-auto opacity-80">
+                    Elite Home Services provides clean, reliable home improvement solutions with attention 
+                    to detail and professional finishing for every homeowner.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Painting &amp; Wall Repair</h3>
+                    <p class="text-black opacity-70 leading-relaxed">Professional interior and exterior painting with wall repairs and smooth wood finishing.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Flooring Installation</h3>
+                    <p class="text-black opacity-70 leading-relaxed">Expert laminate and vinyl flooring installation with precise alignment and removal.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Fences &amp; Gate Services</h3>
+                    <p class="text-black opacity-70 leading-relaxed">Complete fence and gate installation, repair, and removal with durable wooden fencing.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Custom Decoration</h3>
+                    <p class="text-black opacity-70 leading-relaxed">Modern TV wall décor with LED lighting options and custom room features.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Laundry Room</h3>
+                    <p class="text-black opacity-70 leading-relaxed">Upgrade your laundry room with practical shelving and organization solutions.</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
+                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Small Installations</h3>
+                    <p class="text-black opacity-70 leading-relaxed">TV mounting, shelves, curtain rods, and other small installations done securely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-50">
+        <div class="container max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-black mb-8 text-center">Quality Craftsmanship</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://media.istockphoto.com/id/1221306244/photo/close-up-shot-of-white-paint-being-applied-on-a-roller-paint-is-in-the-tray-room-renovations.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=Amdr4KfI0jgaSOY-Bqkf6hgBCU115-lRpn3Xf23MIFQ=" class="w-full h-full object-cover transition-transform duration-500" alt="Painting">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Painting</span></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://media.istockphoto.com/id/1203034341/photo/male-hands-installing-wooden-laminate-flooring-on-the-floor-are-different-carpenters-tools.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=ynuff8DM60-6Es9OruGDLeg0sD0xm2z0iADB4trrqP8=" class="w-full h-full object-cover transition-transform duration-500" alt="Flooring">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Flooring</span></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://media.istockphoto.com/id/2231257779/photo/nice-new-wooden-fence-around-house-wooden-fence-with-green-lawn.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=KdjFDxwprxrNyrOHPW9BWWoLd5OXSKj78GateIzrwrw=" class="w-full h-full object-cover transition-transform duration-500" alt="Fences">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Fences</span></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://media.istockphoto.com/id/2151686231/photo/living-room-modern-minimal-style-with-armchair-on-tiles-granite-floor.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=FjowtXhtNvN9hZ8lxnhf_1twhcwIpSt2frNxbP2odDU=" class="w-full h-full object-cover transition-transform duration-500" alt="Decor">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Decor</span></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://media.istockphoto.com/id/2216174215/photo/home-appliance-efficiency-in-sleek-laundry-room-organization-3d-render-illustration.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=vGMS9kmhI38riRJGxOXkeMhhmHeNdOxnBtwa2oGl7KU=" class="w-full h-full object-cover transition-transform duration-500" alt="Laundry">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Laundry Room</span></div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
+                    <img src="https://plus.unsplash.com/premium_photo-1680127401819-d9cac7c99dd3?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover transition-transform duration-500" alt="Installations">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Installations</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="container max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+                <div class="text-center p-2 border-r border-gray-100 last:border-0">
+                    <p class="text-sm font-bold text-black">On-Time Work</p>
+                </div>
+                <div class="text-center p-2 border-r border-gray-100 last:border-0">
+                    <p class="text-sm font-bold text-black">Clean Results</p>
+                </div>
+                <div class="text-center p-2 border-r border-gray-100 last:border-0">
+                    <p class="text-sm font-bold text-black">Fair Pricing</p>
+                </div>
+                <div class="text-center p-2">
+                    <p class="text-sm font-bold text-black">100% Satisfied</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="/contact/" class="bg-elite-brown text-white font-semibold px-10 py-3 rounded-md shadow hover-elite-brown transition-all flex items-center gap-2">
+    Request a Quote
+</a>
+
+
+                <a href="mailto:contact@elitehomeservices.ca" class="bg-elite-brown text-white font-semibold px-10 py-3 rounded-md shadow hover-elite-brown transition-all flex items-center gap-2">
+                    Email Us
+                </a>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -201,6 +444,8 @@ CSS CODE
 Serving Your Community
 
 
+
+  
 
 <section class="ehs-community">
   <div class="ehs-community-wrap">
@@ -302,268 +547,11 @@ Serving Your Community
 
 
 
-Our Professional Home Services
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Home Services</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: white;
-        }
-        .hover-lift:hover {
-            transform: translateY(-8px);
-        }
-        .hover-scale:hover img {
-            transform: scale(1.1);
-        }
-        /* Custom Brown Color */
-        .bg-elite-brown {
-            background-color: #5D4037;
-        }
-        .hover-elite-brown:hover {
-            background-color: #4a332c;
-        }
-    </style>
-</head>
-<body class="bg-white">
-
-    <section class="py-12 md:py-20">
-        <div class="container max-w-7xl mx-auto px-4">
-            <div class="text-center mb-14">
-                <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">
-                    Our Professional Home Services
-                </h2>
-                <p class="text-lg text-black max-w-3xl mx-auto opacity-80">
-                    Elite Home Services provides clean, reliable home improvement solutions with attention 
-                    to detail and professional finishing for every homeowner.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Painting & Wall Repair</h3>
-                    <p class="text-black opacity-70 leading-relaxed">Professional interior and exterior painting with wall repairs and smooth wood finishing.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Flooring Installation</h3>
-                    <p class="text-black opacity-70 leading-relaxed">Expert laminate and vinyl flooring installation with precise alignment and removal.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Fences & Gate Services</h3>
-                    <p class="text-black opacity-70 leading-relaxed">Complete fence and gate installation, repair, and removal with durable wooden fencing.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Custom Decoration</h3>
-                    <p class="text-black opacity-70 leading-relaxed">Modern TV wall décor with LED lighting options and custom room features.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Laundry Room</h3>
-                    <p class="text-black opacity-70 leading-relaxed">Upgrade your laundry room with practical shelving and organization solutions.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 hover:shadow-xl transition-all duration-300 rounded-lg p-6 hover-lift">
-                    <div class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-5">
-                        <svg class="h-6 w-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-black mb-3">Small Installations</h3>
-                    <p class="text-black opacity-70 leading-relaxed">TV mounting, shelves, curtain rods, and other small installations done securely.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-12 bg-gray-50">
-        <div class="container max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-black mb-8 text-center">Quality Craftsmanship</h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://media.istockphoto.com/id/1221306244/photo/close-up-shot-of-white-paint-being-applied-on-a-roller-paint-is-in-the-tray-room-renovations.jpg?s=612x612&w=0&k=20&c=Amdr4KfI0jgaSOY-Bqkf6hgBCU115-lRpn3Xf23MIFQ=" class="w-full h-full object-cover transition-transform duration-500" alt="Painting">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Painting</span></div>
-                </div>
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://media.istockphoto.com/id/1203034341/photo/male-hands-installing-wooden-laminate-flooring-on-the-floor-are-different-carpenters-tools.jpg?s=612x612&w=0&k=20&c=ynuff8DM60-6Es9OruGDLeg0sD0xm2z0iADB4trrqP8=" class="w-full h-full object-cover transition-transform duration-500" alt="Flooring">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Flooring</span></div>
-                </div>
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://media.istockphoto.com/id/2231257779/photo/nice-new-wooden-fence-around-house-wooden-fence-with-green-lawn.jpg?s=612x612&w=0&k=20&c=KdjFDxwprxrNyrOHPW9BWWoLd5OXSKj78GateIzrwrw=" class="w-full h-full object-cover transition-transform duration-500" alt="Fences">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Fences</span></div>
-                </div>
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://media.istockphoto.com/id/2151686231/photo/living-room-modern-minimal-style-with-armchair-on-tiles-granite-floor.jpg?s=612x612&w=0&k=20&c=FjowtXhtNvN9hZ8lxnhf_1twhcwIpSt2frNxbP2odDU=" class="w-full h-full object-cover transition-transform duration-500" alt="Decor">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Decor</span></div>
-                </div>
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://media.istockphoto.com/id/2216174215/photo/home-appliance-efficiency-in-sleek-laundry-room-organization-3d-render-illustration.jpg?s=612x612&w=0&k=20&c=vGMS9kmhI38riRJGxOXkeMhhmHeNdOxnBtwa2oGl7KU=" class="w-full h-full object-cover transition-transform duration-500" alt="Laundry">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Laundry Room</span></div>
-                </div>
-                <div class="relative overflow-hidden rounded-lg hover-scale cursor-pointer h-40 md:h-52">
-                    <img src="https://plus.unsplash.com/premium_photo-1680127401819-d9cac7c99dd3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover transition-transform duration-500" alt="Installations">
-                    <div class="absolute inset-0 bg-black/40 flex items-end p-3"><span class="text-white text-xs font-bold uppercase">Installations</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-12 bg-white">
-        <div class="container max-w-6xl mx-auto px-4">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-                <div class="text-center p-2 border-r border-gray-100 last:border-0">
-                    <p class="text-sm font-bold text-black">On-Time Work</p>
-                </div>
-                <div class="text-center p-2 border-r border-gray-100 last:border-0">
-                    <p class="text-sm font-bold text-black">Clean Results</p>
-                </div>
-                <div class="text-center p-2 border-r border-gray-100 last:border-0">
-                    <p class="text-sm font-bold text-black">Fair Pricing</p>
-                </div>
-                <div class="text-center p-2">
-                    <p class="text-sm font-bold text-black">100% Satisfied</p>
-                </div>
-            </div>
-
-            <div class="flex flex-wrap gap-4 justify-center">
-                <a href="/contact/" class="bg-elite-brown text-white font-semibold px-10 py-3 rounded-md shadow hover-elite-brown transition-all flex items-center gap-2">
-    Request a Quote
-</a>
-
-
-                <a href="mailto:contact@elitehomeservices.ca" class="bg-elite-brown text-white font-semibold px-10 py-3 rounded-md shadow hover-elite-brown transition-all flex items-center gap-2">
-                    Email Us
-                </a>
-            </div>
-        </div>
-    </section>
-
-</body>
-</html>
+All the selections together  Our Professional Home Services 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-about Our business
-
-
-
-<section class="ehs-about">
-  <div class="ehs-about-wrap">
-
-    <div class="ehs-about-text">
-      <h2>About Our Business</h2>
-
-      <p>
-        At <strong>Elite Home Services</strong>, we provide professional and dependable home improvement services across
-        <strong>London, Ontario</strong> and surrounding areas. We focus on quality workmanship, clean results, and honest
-        service on every project.
-      </p>
-
-      <p>
-        Our services include flooring installation, wooden fence installation for backyards, door installation, and custom
-        home décor such as TV wall designs and bedroom décor made to order. We also handle wall repairs and corrections,
-        fresh interior painting, and a wide range of small home improvement and installation jobs.
-      </p>
-
-      <p>
-        We take pride in delivering well-organized, on-time work with attention to detail, ensuring your home looks better,
-        functions better, and feels refreshed. With <strong>Elite Home Services</strong>, you can count on reliable service,
-        clear communication, and results you can trust.
-      </p>
-    </div>
-
-    <div class="ehs-about-image">
-      <img src="https://media.istockphoto.com/id/941972466/photo/manual-workers-making-construction-for-drywall.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=07h_VZtzggt_MFlm9TiyHNtICzzslm42NeNz2pd783k=" alt="Elite Home Services Home Improvement">
-    </div>
-
-  </div>
-</section>
-
-<style>
-  .ehs-about{
-    padding: 44px 16px;
-    font-family: Arial, sans-serif;
-  }
-  .ehs-about-wrap{
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .ehs-about-text h2{
-    margin: 0 0 14px 0;
-    font-size: 30px;
-    line-height: 1.2;
-  }
-  .ehs-about-text p{
-    margin: 0 0 14px 0;
-    font-size: 15.5px;
-    line-height: 1.75;
-    opacity: 0.95;
-  }
-  .ehs-about-image{
-    margin-top: 22px;
-    border-radius: 16px;
-    overflow: hidden;
-  }
-  .ehs-about-image img{
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-    display: block;
-  }
-
-  @media (max-width: 640px){
-    .ehs-about-text h2{ font-size: 24px; }
-    .ehs-about-image img{ height: 220px; }
-  }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-(navigation page)
 
 <section class="ehs-nav"> 
 
@@ -571,7 +559,7 @@ about Our business
 
     <a href="/" class="ehs-nav-card"> 
 
-      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=2070&auto=format&fit=crop" alt="Home"> 
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" alt="Home"> 
 
       <div class="ehs-nav-overlay"><span>🏠</span><h3>Home</h3></div> 
 
@@ -579,7 +567,7 @@ about Our business
 
     <a href="/services/" class="ehs-nav-card"> 
 
-      <img src="https://images.unsplash.com/photo-1676311396794-f14881e9daaa?q=80&w=2070&auto=format&fit=crop" alt="Services"> 
+      <img src="https://images.unsplash.com/photo-1676311396794-f14881e9daaa?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" alt="Services"> 
 
       <div class="ehs-nav-overlay"><span>🛠️</span><h3>Services</h3></div> 
 
@@ -603,7 +591,7 @@ about Our business
 
     <a href="/about/" class="ehs-nav-card"> 
 
-      <img src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&w=1172&auto=format&fit=crop" alt="About Us"> 
+      <img src="https://images.unsplash.com/photo-1571624436279-b272aff752b5?q=80&amp;w=1172&amp;auto=format&amp;fit=crop" alt="About Us"> 
 
       <div class="ehs-nav-overlay"><span>ℹ️</span><h3>About Us</h3></div> 
 
@@ -611,7 +599,7 @@ about Our business
 
     <a href="/contact/" class="ehs-nav-card"> 
 
-      <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop" alt="Contact"> 
+      <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" alt="Contact"> 
 
       <div class="ehs-nav-overlay"><span>📞</span><h3>Contact</h3></div> 
 
@@ -619,7 +607,7 @@ about Our business
 
     <a href="/faqs/" class="ehs-nav-card"> 
 
-      <img src="https://images.unsplash.com/photo-1652077859695-de2851a95620?q=80&w=880&auto=format&fit=crop" alt="FAQs"> 
+      <img src="https://images.unsplash.com/photo-1652077859695-de2851a95620?q=80&amp;w=880&amp;auto=format&amp;fit=crop" alt="FAQs"> 
 
       <div class="ehs-nav-overlay"><span>❓</span><h3>FAQs</h3></div> 
 
@@ -627,7 +615,7 @@ about Our business
 
     <a href="/customer-reviews/" class="ehs-nav-card"> 
 
-      <img src="https://media.istockphoto.com/id/2218536266/photo/customer-review-satisfaction-feedback-survey-concept-user-give-rating-to-service-experience.jpg?s=612x612&w=0&k=20&c=iLm37Ds4y7BJthzZ6CkDBia20G15HTUdkYCgpsex-vE=" alt="Customer Reviews"> 
+      <img src="https://media.istockphoto.com/id/2218536266/photo/customer-review-satisfaction-feedback-survey-concept-user-give-rating-to-service-experience.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=iLm37Ds4y7BJthzZ6CkDBia20G15HTUdkYCgpsex-vE=" alt="Customer Reviews"> 
 
       <div class="ehs-nav-overlay"><span>⭐</span><h3>Customer Reviews</h3></div> 
 
@@ -660,21 +648,6 @@ about Our business
   @media (max-width: 700px){ .ehs-nav-wrap{ grid-template-columns: 1fr; } } 
 
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-(Photo Gallery - 18 Photos)
-
 
 <section class="ehs-gallery"> 
 
@@ -828,26 +801,13 @@ about Our business
 
 </script>
 
-
-
-
-
-
-
-
-
-
-
- (25 Reviews) 
-
-
- <section class="ehs-reviews"> 
+<section class="ehs-reviews"> 
 
   <div class="ehs-reviews-wrap"> 
 
     <h2>Our Reviews</h2> 
 
-    <p class="ehs-reviews-intro">Our customers appreciate the quality of our work, our attention to detail, and our commitment to clean, professional finishing. From the first consultation to the final result, we focus on delivering reliable service, clear communication, and results that homeowners can feel confident about. Their feedback reflects the care we put into every project, no matter the size.</p> 
+    <p class="ehs-reviews-intro">Real-style reviews from our customers focusing on clean finishing and reliable service.</p> 
 
     <div class="ehs-reviews-grid" id="ehsReviewsGrid"> 
 
@@ -902,10 +862,6 @@ about Our business
       <div class="ehs-review ehs-hidden"><strong>Zoe Watson</strong><div class="ehs-stars">★★★★★</div><p>Updated laundry room. Great workmanship.</p></div> 
 
       <div class="ehs-review ehs-hidden"><strong>Tyler King</strong><div class="ehs-stars">★★★★★</div><p>Small home improvements done right. Respectful team.</p></div> 
-
- <div class="ehs-review ehs-hidden"><strong>Nabush Alwadi</strong><div class="ehs-stars">★★★★★</div><p>Exterior paint looks durable and even. Sharp results.</p></div> 
-
-<div class="ehs-review"><strong>Mohammed Alhassan</strong><div class="ehs-stars">★★★★★</div><p>Door installation was done perfectly. Attention to detail is great.</p></div>
 
     </div> 
 
@@ -967,24 +923,7 @@ about Our business
 
 })(); 
 
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-(Why Choose Us)  
-
-
-
-
+</script> 
 
 <section class="ehs-why">  
 
@@ -1002,7 +941,7 @@ about Our business
 
   
 
-        <img src="https://media.istockphoto.com/id/2190057704/photo/man-painting-living-room-wall-during-apartment-renovation.jpg?s=612x612&w=0&k=20&c=YdjDxlzP_PRNjX_yERTALgepZALghon-9H4PUF52ygw=" alt="Quality Work">  
+        <img src="https://media.istockphoto.com/id/2190057704/photo/man-painting-living-room-wall-during-apartment-renovation.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=YdjDxlzP_PRNjX_yERTALgepZALghon-9H4PUF52ygw=" alt="Quality Work">  
 
   
 
@@ -1122,8 +1061,10 @@ about Our business
 
 
 
-homepage footer
 
+
+
+   Home page Footer
 
 
 
@@ -1132,6 +1073,7 @@ homepage footer
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite Home Services Footer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -1140,35 +1082,35 @@ homepage footer
 
 
 
-    <section class="py-12 bg-gradient-to-br from-amber-900 to-amber-950 text-white">
+    <section class="py-12 text-white" style="background: linear-gradient(135deg, rgb(93,64,55) 0%, rgb(120,85,70) 50%, rgb(196,120,74) 100%);">
         <div class="container max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-2xl md:text-3xl font-bold mb-3">Looking for Reliable Home Services?</h2>
-            <p class="text-md opacity-90 mb-8 max-w-2xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Looking for Reliable Home Services?</h2>
+            <p class="text-base md:text-lg opacity-90 mb-10 max-w-2xl mx-auto">
                 Contact us today for a free estimate. We focus on quality workmanship, transparent pricing, and customer satisfaction.
             </p>
             
-            <div class="flex flex-row justify-center items-center gap-2 md:gap-4 mb-16">
-                <a href="tel:+15196972361" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-2 transition-all duration-300 hover:scale-105 text-xs md:text-sm">
-                    <span class="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center flex-shrink-0">
-                        <svg class="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="flex flex-col justify-center items-center gap-3 mb-16">
+                <a href="tel:+15198518887" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-4 py-2 transition-all duration-300 hover:scale-105 text-sm md:text-base">
+                    <span class="w-7 h-7 rounded-full bg-green-500 flex items-center justify-center flex-shrink-0">
+                        <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                         </svg>
                     </span>
                     <span class="font-bold">Call Now</span>
                 </a>
 
-                <a href="mailto:contact@elitehomeservices.ca" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-2 transition-all duration-300 hover:scale-105 text-xs md:text-sm">
-                    <span class="w-6 h-6 rounded-full bg-amber-600 flex items-center justify-center flex-shrink-0">
-                        <svg class="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <a href="mailto:contact@elitehomeservices.ca" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-4 py-2 transition-all duration-300 hover:scale-105 text-sm md:text-base">
+                    <span class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center flex-shrink-0">
+                        <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                         </svg>
                     </span>
                     <span class="font-bold">Email Us</span>
                 </a>
 
-                <a href="https://wa.me/15198518887" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-2 transition-all duration-300 hover:scale-105 text-xs md:text-sm">
-                    <span class="w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center flex-shrink-0">
-                        <svg class="h-3 w-3 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <a href="https://wa.me/15198518887" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-4 py-2 transition-all duration-300 hover:scale-105 text-sm md:text-base">
+                    <span class="w-7 h-7 rounded-full bg-emerald-500 flex items-center justify-center flex-shrink-0">
+                        <svg class="h-4 w-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
                         </svg>
                     </span>
@@ -1179,69 +1121,70 @@ homepage footer
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left border-t border-white/10 pt-12">
                 
                 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
-                    <div class="text-xl font-bold mb-3" style="font-family: 'Playfair Display', serif;">Elite Home Services</div>
-                    <p class="opacity-80 text-xs leading-relaxed mb-4">
+                    <div class="text-2xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">Elite Home Services</div>
+                    <p class="opacity-80 text-sm leading-relaxed mb-4">
                         Professional home improvement based in London, Ontario. We pride ourselves on clean finishing and reliable scheduling.
                     </p>
                     <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-[10px] font-bold px-2 py-1 rounded-full bg-white/10 border border-white/20">Clean Finishing</span>
-                        <span class="text-[10px] font-bold px-2 py-1 rounded-full bg-white/10 border border-white/20">Reliable Scheduling</span>
-                        <span class="text-[10px] font-bold px-2 py-1 rounded-full bg-white/10 border border-white/20">Quality Results</span>
+                        <span class="text-xs font-bold px-3 py-1 rounded-full bg-white/10 border border-white/20">Clean Finishing</span>
+                        <span class="text-xs font-bold px-3 py-1 rounded-full bg-white/10 border border-white/20">Reliable Scheduling</span>
+                        <span class="text-xs font-bold px-3 py-1 rounded-full bg-white/10 border border-white/20">Quality Results</span>
                     </div>
                 </div>
 
                 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
-                    <h4 class="text-sm font-bold mb-4 pb-2 border-b border-amber-500 inline-block">Navigation</h4>
+                    <h4 class="text-base font-bold mb-4 pb-2 border-b border-amber-400 inline-block">Navigation</h4>
                     <div class="grid grid-cols-2 gap-4">
-                        <ul class="space-y-2 text-xs opacity-80">
-                            <li><a href="/" class="hover:underline">Home</a></li>
-                            <li><a href="/services/" class="hover:underline">Services</a></li>
-                            <li><a href="/Our Projects/" class="hover:underline">Our Projects</a></li>
+                        <ul class="space-y-2 text-sm opacity-80">
+                            <li><a href="/" class="hover:underline hover:opacity-100">Home</a></li>
+                            <li><a href="/services/" class="hover:underline hover:opacity-100">Services</a></li>
+                            <li><a href="/Our Projects/" class="hover:underline hover:opacity-100">Our Projects</a></li>
                         </ul>
-                        <ul class="space-y-2 text-xs opacity-80">
-                            <li><a href="/about/" class="hover:underline">About Us</a></li>
-                            <li><a href="/faqs/" class="hover:underline">FAQs</a></li>
-                            <li><a href="/customer-reviews/" class="hover:underline">Reviews</a></li>
-                            <li><a href="/contact/" class="hover:underline">Contact</a></li>
+                        <ul class="space-y-2 text-sm opacity-80">
+                            <li><a href="/about/" class="hover:underline hover:opacity-100">About Us</a></li>
+                            <li><a href="/faqs/" class="hover:underline hover:opacity-100">FAQs</a></li>
+                            <li><a href="/customer-reviews/" class="hover:underline hover:opacity-100">Reviews</a></li>
+                            <li><a href="/contact/" class="hover:underline hover:opacity-100">Contact</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
-                    <h4 class="text-sm font-bold mb-4 pb-2 border-b border-amber-500 inline-block">Our Team</h4>
+                    <h4 class="text-base font-bold mb-4 pb-2 border-b border-amber-400 inline-block">Our Team</h4>
                     
                     <div class="space-y-2">
-                        <div class="flex justify-between items-center bg-black/20 p-2 rounded-lg border border-white/5">
-                            <span class="text-xs font-bold">Isa Hasan</span>
-                            <a href="tel:+15196972361" class="text-[11px] opacity-90 hover:text-amber-400 font-mono">(519) 697-2361</a>
+                        <div class="flex justify-between items-center bg-black/20 p-3 rounded-lg border border-white/5">
+                            <span class="text-sm font-bold">Isa Hasan</span>
+                            <a href="tel:+15196972361" class="text-sm opacity-90 hover:text-amber-300 font-mono">(519) 697-2361</a>
                         </div>
-                        <div class="flex justify-between items-center bg-black/20 p-2 rounded-lg border border-white/5">
-                            <span class="text-xs font-bold">Musa Hasan</span>
-                            <a href="tel:+12265040348" class="text-[11px] opacity-90 hover:text-amber-400 font-mono">(226) 504-0348</a>
+                        <div class="flex justify-between items-center bg-black/20 p-3 rounded-lg border border-white/5">
+                            <span class="text-sm font-bold">Musa Hasan</span>
+                            <a href="tel:+12265040348" class="text-sm opacity-90 hover:text-amber-300 font-mono">(226) 504-0348</a>
                         </div>
-                        <div class="flex justify-between items-center bg-black/20 p-2 rounded-lg border border-white/5">
-                            <span class="text-xs font-bold">Abdul Alali</span>
-                            <a href="tel:+12264486508" class="text-[11px] opacity-90 hover:text-amber-400 font-mono">(226) 448-6508</a>
+                        <div class="flex justify-between items-center bg-black/20 p-3 rounded-lg border border-white/5">
+                            <span class="text-sm font-bold">Abdul Alali</span>
+                            <a href="tel:+12264486508" class="text-sm opacity-90 hover:text-amber-300 font-mono">(226) 448-6508</a>
                         </div>
                     </div>
 
                     <div class="mt-4 pt-4 border-t border-white/10 flex flex-col gap-2">
-                        <div class="flex gap-2 items-center text-[11px] opacity-70">
+                        <div class="flex gap-2 items-center text-sm opacity-80">
                             <span>📍</span> 1157 Oakcrossing Rd, London, ON
                         </div>
-                        <div class="flex gap-2 items-center text-[11px] opacity-70">
+                        <div class="flex gap-2 items-center text-sm opacity-80">
                             <span>✉️</span> contact@elitehomeservices.ca
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="mt-12 text-center text-[10px] opacity-40">
+            <div class="mt-12 text-center text-xs opacity-50">
                 © 2026 Elite Home Services. Serving Ontario with Excellence.
             </div>
         </div>
     </section>
-    </section>
-</body>
-</html>
+
+
+
+
 
